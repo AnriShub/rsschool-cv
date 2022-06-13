@@ -1,2 +1,2 @@
 # rsschool-cv
-anrishub.github.io/rsschool-cv/
+http//anrishub.github.io/rsschool-cv/

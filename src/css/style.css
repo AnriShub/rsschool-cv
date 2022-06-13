@@ -1,0 +1,211 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto 0 auto;
+    width: 1140px;
+    /* align-content:center; */
+}
+header .container .header_wrapper {
+    background-color: rgb(234, 230, 221);
+    min-height: 250px;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+
+header .container .header_wrapper .header_item1 {
+width: 300px;
+/* margin-right: 100px; */
+}
+
+header .container .header_wrapper .header_item2 {
+    width: 100%;
+    /* margin-right: 100px; */
+    }
+
+header .container .header_wrapper .header_item1 .item_header_photo {
+    width: 200px;
+    margin-left: 40px;
+}
+
+nav {
+    height: 50px;
+    top: 0px;
+    width: 100%;
+    /* margin-bottom: 50px; */
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 0 0px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+}
+.header_subitem1 {
+    display: block;
+    top: 72px;
+    margin-top: -35px;
+}
+.header_subitem2 {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(153, 28, 28);  
+}
+
+.header_subitem3 {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.devider {
+    /* margin-top: 10px; */
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: rgb(153, 28, 28);  
+}
+
+.main_block {
+    display: block;
+    /* min-height: 650px; */
+}
+.main_body_wrapper {
+    display: block;
+}
+.main_wrapper {
+    display: flex;
+}
+.main_left_side {
+    /* background-color: rgb(167, 25, 25); */
+    /* height: 500px; */
+    width: 50%;
+}
+
+.main_center {
+    margin: 40px 10px 50px 0;
+    width: 2px;
+    background-color: rgb(167, 167, 167);
+    height: 580px;
+}
+.main_right_side {
+    /* background-color: rgb(25, 136, 167); */
+    /* height: 500px; */
+    width: 50%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(167, 167, 167);
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.body_text {
+    font-size: 15px;
+    font-weight: 300;
+    /* color: rgb(167, 167, 167); */
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.text_bold {
+    font-weight: 500;
+}
+.text_list {
+    padding-left: 20px;
+}
+
+.text_uppercase {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(153, 28, 28); 
+    font-size: 14px;
+}
+
+.code_block {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+}
+
+.cv_link {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.cv_link:hover {
+    text-decoration: underline;
+    font-size: 15px;
+    font-weight: 00;
+    color: rgb(153, 28, 28);
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.footer_item {
+    display: block;
+    /* background-color: rgb(195, 146, 11); */
+}
+
+.footer_item .container .footer_wrapper {
+    display: flex;
+    padding: 40px;
+    position: relative;
+    height: 40px;
+    background-color: rgb(234, 230, 221);
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.footer_item .container .footer_wrapper .footer_title {
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(167, 167, 167);
+    /* margin-top: 40px; */
+    padding-left: 10px;
+}
+
+.footer_item .container .footer_wrapper .footer_body_text {
+    margin-left: 20px;
+    /* margin: 0 auto; */
+    /* background-color: rgb(195, 11, 155); */
+}
+
+.footer_item .container .footer_wrapper .footer_social_items {
+    display: flex;
+    width: 210px;
+    justify-content: space-evenly;
+}
+
+.footer_item .container .footer_wrapper .footer_social_items .social_icon {
+    width: 30px;
+    height: 30px;
+    /* background-color: red; */
+}
+
